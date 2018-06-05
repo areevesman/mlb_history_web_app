@@ -9,6 +9,9 @@ This repository contains all of the code and data necessary to create this shiny
 
 ## What the application does
 
+Some general instructions are included in the header of the app. 
+
+
 
 ## How the application was created
 
