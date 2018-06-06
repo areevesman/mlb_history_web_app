@@ -17,7 +17,15 @@ Once the user selects a team, year, and statistic, a plot will render that displ
 
 ![select_team](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/select_team.png)
 
+![select_year](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/select_year.png)
+
 ![select_stat](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/select_stat.png)
+
+The plot comes with some cool features. It allows users to zoom in and out, adjust the axes, and more. When the user hovers over a data point, information about the date, teams, score, and winner of the game appears.
+
+![hover](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/hover.png)
+
+![autoscale](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/autoscale.png)
 
 ## How the application was created
 
