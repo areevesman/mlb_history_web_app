@@ -36,3 +36,16 @@ The application relies on data from [baseball-reference.com](http://www.baseball
 ### Step 2: Web scraping
 
 Two python scripts (in ipynb format) were created to scrape the data. They utilize the `bs4` (BeautifulSoup) module, which is explained in more detail and used for a similar purpose in this [youtube tutorial](https://www.youtube.com/watch?v=BCJ4afDX4L4).
+
+### Step 3: Defining funcions
+
+An R script is included that conatains some user-defined functions to optimize the actual shiny application code.
+
+
+### Step 4: Create the app
+
+According to https://shiny.rstudio.com/, "Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions." 
+
+A tutorial can be found [here](https://shiny.rstudio.com/tutorial/).
+
+An R script (app.R) is included in this repository. To run the app, simply run this script.
