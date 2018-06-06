@@ -30,3 +30,5 @@ The plot comes with some cool features. It allows users to zoom in and out, adju
 ## How the application was created
 
 ### Step 1: Web scraping
+
+Two python scripts (in ipynb format) were created to scrape the data. They utilize the `bs4` (BeautifulSoup) module, which is explained in more detail and used for a similar purpose in this [youtube tutorial](https://www.youtube.com/watch?v=BCJ4afDX4L4).
