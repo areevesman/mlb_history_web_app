@@ -44,8 +44,12 @@ An R script is included that conatains some user-defined functions to optimize t
 
 ### Step 4: Create the app
 
-According to https://shiny.rstudio.com/, "Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions." 
-
-A tutorial can be found [here](https://shiny.rstudio.com/tutorial/).
+According to https://shiny.rstudio.com/, "Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions." Many resources and tutorials can be found [here](https://shiny.rstudio.com/tutorial/). See this [gallery](https://shiny.rstudio.com/gallery/) as well for help with implimentation of more specific features.
 
 An R script (app.R) is included in this repository. To run the app, simply run this script.
+
+### Step 5: Publishing the application
+
+Shiny apps are easy to share and the free version of [shinyapps.io](http://www.shinyapps.io/) was used for this project.
+
+A more comprehensive outline of ways to share shiny apps is given [here](https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/).
