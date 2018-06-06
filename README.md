@@ -11,7 +11,7 @@ This repository contains all of the code and data necessary to create this shiny
 
 Some general instructions are included in the header of the app. 
 
-
+![instructions](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/instructions.png)
 
 ## How the application was created
 
