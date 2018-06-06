@@ -29,6 +29,10 @@ The plot comes with some cool features. It allows users to zoom in and out, adju
 
 ## How the application was created
 
-### Step 1: Web scraping
+### Step 1: Finding data
+
+The application relies on data from [baseball-reference.com](http://www.baseball-reference.com). The Team ID's table, located here: https://www.baseball-reference.com/about/team_IDs.shtml, was used to determine all necessary IDs and years so that the Team Game-by-Game Schedule tables could be used for all current franchises between their first year in Major League Baseball and 2017. These tables are found on pages with URLs such as https://www.baseball-reference.com/teams/STL/1960-schedule-scores.shtml, where "STL" and "1960" are replaced with the appropriate team ID and year.
+
+### Step 2: Web scraping
 
 Two python scripts (in ipynb format) were created to scrape the data. They utilize the `bs4` (BeautifulSoup) module, which is explained in more detail and used for a similar purpose in this [youtube tutorial](https://www.youtube.com/watch?v=BCJ4afDX4L4).
