@@ -1,13 +1,12 @@
 # A History of Major League Baseball's Active Franchises
 
-Any questions or comments should be directed to areevesman@gmail.com
-
 This repository contains all of the code and data necessary to create this shiny web app for comparing regular season statistics for Major League Baseball franchises: https://areevesman.shinyapps.io/history/
 
 * Python scripts (jupyter notebooks) that were used to scrape data from [baseball-reference.com](http://www.baseball-reference.com) 
 * An R script that contains user-defined functions for interacting with and manipulating the data
 * An R script that defines and runs the shiny app
 
+Everyone is encouraged to iterate on this project. There are an unlimited amount of potential features that could be added to the application. All questions and comments should be directed to areevesman@gmail.com.
 
 ## What the application does
 
