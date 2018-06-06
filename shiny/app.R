@@ -10,7 +10,7 @@ library(dplyr)
 library(stringr)
 library(ggplot2)
 library(plotly)
-source('https://raw.githubusercontent.com/areevesman/world_series/master/scripts/functions.R')
+source('https://raw.githubusercontent.com/areevesman/mlb_history_web_app/blob/master/scripts/functions.R')
 
 
 ################
@@ -64,15 +64,13 @@ select_stat_choices <- list("Record" = "record_so_far",
   
 
 
-# Define UI for application that draws a histogram
+# Define UI for application 
 ui <- fluidPage(theme = shinytheme("yeti"),
   
   
    
    # Application title
    titlePanel("A History of Major League Baseball's Active Franchises"),
-   
-   p("\n\n\n"),
    
    p("You can use this application to examine various performance metrics of Major League Baseball teams. Just select a ", 
      strong("Team,"),
