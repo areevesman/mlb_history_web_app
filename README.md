@@ -14,7 +14,7 @@ Some general instructions are included in the header of the app.
 
 ![instructions](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/instructions.png)
 
-Once the user selects a team, year, and statistic, a plot will render that displays game number in the season on the x-axis and the statistic on the y-axis for the given team and year.
+Once the user selects a team, year, and statistic, a plot will render that displays game number in the season on the x-axis and the statistic on the y-axis for the given team and year. The "Play Animation" button allows users to see the graph of the statistic across multiple years (each year's graph is displayed for a fraction of a second).
 
 ![select_team](https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/images/select_team.png)
 
