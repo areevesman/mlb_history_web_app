@@ -12,7 +12,7 @@ get_data <- function(table_name, year = NULL, extention = "csv"){
   
   #get all urls to all table_name data on github
   year_data_url <- getURL(
-    paste("https://raw.githubusercontent.com/areevesman/mlb_history_web_app/blob/master/data/",
+    paste("https://raw.githubusercontent.com/areevesman/mlb_history_web_app/master/data/ARI1998.csv",
           table_name,
           as.character(year),
           ".",
