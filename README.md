@@ -6,7 +6,7 @@ This repository contains all of the code and data necessary to create this shiny
 * An R script that contains user-defined functions for interacting with and manipulating the data
 * An R script that defines and runs the shiny app
 
-questions and comments should to areevesman@gmail.com.
+Questions and comments to areevesman@gmail.com.
 
 ## What the application does
 
